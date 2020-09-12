@@ -4,16 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 0px 20px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+    </style>
 </head>
 <body>
-    <div style="border: aqua solid; width: 300px;">
-        <img src="https://surface.haloshop.vn/image/cache/data/products/microsoft/surface-laptop-3-13-00-1400x1400.jpg" width="300px" height="300px">
-        <p>4 màu sắc</p>
-        <div style="border-top: steelblue solid;">
-            <p>2020 Surface Laptop 3 13.5 inch i5/8GB/256GB</p>
-            <p>Model:13112</p>
+    <div style="background-color: maroon; font-size: 30px; position: fixed; padding: 0px 20px; top: 0px; right: px; left: 0px ; width: 100%; text-align: center;">
+        <a href="https://wfa99.github.io/WebBasic/Web/EX_5/MEME.html">Home</a>
+        <a href="https://wfa99.github.io/WebBasic/Web/EX_6/index.html">Product</a>
+        <a href="">News</a>
+        <a href="https://wfa99.github.io/WebBasic/Web/EX-1/Index.html">About us</a>
+        </div>
+    <div class="row" style="margin-top: 50px;">
+        <div class="column" style="border: green solid; width: 300px; padding-top: 20px;">
+          <img src="https://target.scene7.com/is/image/Target/GUEST_fd476c2c-b4ec-41f6-8c9d-a628fa7d24c3?wid=488&hei=488&fmt=pjpeg" alt="Snow" width="300px" height="300px">
+          <div style="border-top: gray solid;">
+            <p>Luigi’s Mansion 3 – Nintendo Switch</p>
+            <p>23,176,000₫</p>
+        </div> 
+        </div>
+        <div class="column" style="border: gray solid; width: 300px; margin-left: 230px; padding-top: 20px;">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/719%2BfL1LgML._SL1500_.jpg" alt="Forest" width="300px" height="300px">
+          <div style="border-top: grey solid;">
+            <p>Hollow Knight cho PS4 - EU</p>
+            <p>950,000₫</p>
+        </div> 
+        </div>
+        <div class="column" style="border: green solid; width: 300px; margin-left: 230px; padding-top: 20px;">
+          <img src="https://media.playstation.com/is/image/SCEA/minecraft-starter-collection-squareboxart-01-ps4-11dec19-en-us?$native_nt$" alt="Mountains" width="300px" height="300px">
+          <div style="border-top: greenyellow solid;">
+            <p>Minecraft for Windows 10</p>
+            <p>599.900.000₫</p>
+        </div>
+      </div> 
+      <div class="row" style="margin-top: 50px;">
+        <div class="column" style="border: aqua solid; width: 300px; padding-top: 20px; margin-top: 20px;">
+          <img src="https://surface.haloshop.vn/image/cache/data/products/microsoft/surface-laptop-3-13-00-1400x1400.jpg" alt="Snow" width="300px" height="300px">
+          <div style="border-top: steelblue solid;">
+            <p>2020 Surface Laptop</p>
             <p>20,000,000₫</p>
         </div> 
-    </div>
+        </div>
+        <div class="column" style="border: blue solid; width: 300px; margin-left: 230px; padding-top: 20px; margin-top: 20px;">
+          <img src="https://i.gadgets360cdn.com/products/large/1555507135_635_samsung_galaxy_a60.jpg?downsize=*:180&output-quality=80" alt="Forest" width="300px" height="300px">
+          <div style="border-top: grey solid;">
+            <p> Samsung Galaxy A60</p>
+            <p>200,000,000₫</p>
+        </div> 
+        </div>
+        <div class="column" style="border: forestgreen solid; width: 300px; margin-left: 230px; padding-top: 20px; margin-top: 20px;">
+          <img src="https://cdn.tgdd.vn/Products/Images/522/223131/huawei-matepad-t8-400x400-400x460.png" alt="Mountains" width="300px" height="300px">
+          <div style="border-top: indianred solid;">
+            <p>Huawei MatePad T8 Tablet </p>
+            <p>3.290.000₫</p>
+        </div>
+      </div> 
+      <div class="row">
+        <div class="column" style="border: black solid; width: 300px; padding-top: 20px; margin-top:20px; margin-right: 100px;">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/41srzfxYpXL._AC_.jpg" alt="Snow" width="300px" height="300px">
+          <div style="border-top: black solid;">
+            <p>Bluetooth Headphones</p>
+            <p>10,000,000₫</p>
+        </div> 
+        </div>
+        <div class="column" style="border: gray solid; width: 300px; margin-left: 130px; padding-top: 20px; margin-top: 20px;">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/61Gz0IdwNIL._AC_SL1500_.jpg" alt="Forest" width="300px" height="300px">
+          <div style="border-top: grey solid;">
+            <p> USB Wired Computer Mouse (Black)</p>
+            <p>1,000,000₫</p>
+        </div> 
+        </div>
+        <div class="column" style="border: black solid; width: 300px; margin-left: 230px; padding-top: 20px; margin-top: 20px;">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/81RZ5vxHL2L._AC_SL1500_.jpg" alt="Mountains" width="300px" height="300px">
+          <div style="border-top: gray solid;">
+            <p>Computer Keyboard </p>
+            <p>5.000.000₫</p>
+        </div>
+      </div> 
 </body>
 </html>
